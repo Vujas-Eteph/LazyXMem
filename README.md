@@ -13,3 +13,43 @@ Official Repository for LazyXMem
 - Our paper got accepted at ACCV 2024! See you at Hanoi 🤗
 
 ## CODE
+
+### Installation
+
+#### Install Lazy-XMem
+- Clone the Repository
+    ```zsh
+    git clone https://github.com/Vujas-Eteph/LazyXMem
+    cd LazyXMem
+    ```
+
+- Create conda env. and package installation
+    ```zsh
+    conda env create -f environment.yml
+    conda activate lazyXmem
+    ```
+- Install [Pytorch](https://pytorch.org/get-started/locally/) (follow the link)
+- Download XMem weights
+    ```zsh
+    bash ./scripts/download_models.sh
+    ```
+- Installing SAM-HQ
+    ```zsh
+    git clone https://github.com/SysCV/sam-hq.git
+    cd sam-hq; pip install -e .
+    cd ..
+    ```
+- Download the [SAM-HQ weights](https://github.com/SysCV/sam-hq/issues/5) (follow the link)
+
+- Download datasets (!todo: give informations)
+    ```zsh
+
+    ```
+
+### How to run it?
+Test Lazy-XMem: `eval_lazy_XMem_with_Lazy_agent.py` 
+Test Lazy-XMem dummy: `eval_lazy_XMem_dummy.py` 
+Test XMem: `eval_lazy_XMem_base.py` 
+
+> [!TIPS]  
+> Take a look at the `run.sh` file for a more detailed example.
