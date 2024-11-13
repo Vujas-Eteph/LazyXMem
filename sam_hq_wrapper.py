@@ -7,7 +7,6 @@ import cv2
 # All my packages
 from segment_anything import sam_model_registry, SamPredictor
 from segment_anything.utils.transforms import ResizeLongestSide
-import segmentation_refinement as refine
 
 from torchvision.transforms.functional import resize  # type: ignore
 
