@@ -51,7 +51,7 @@ Test Lazy-XMem: `eval_lazy_XMem_with_Lazy_agent.py`
 Test Lazy-XMem dummy: `eval_lazy_XMem_dummy.py` 
 Test XMem: `eval_lazy_XMem_base.py` 
 
-> [!TIPS]  
+> [!TIP]  
 > Take a look at the `run.sh` file for a more detailed example.
 
 ### Other related projects:
