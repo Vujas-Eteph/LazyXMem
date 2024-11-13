@@ -1,0 +1,25 @@
+name: lazyXmem
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - pandas
+  - polars
+  - pillow
+  - hickle
+  - icecream
+  - lovely-tensors
+  - progressbar
+  - scikit-image
+  - pip:
+    - pyyaml
+    - seaborn
+    - colorful
+    - opencv-python
+    - opencv-contrib-python
+    - git+https://github.com/Vujas-Eteph/iVOTS_robot
+    - timm  # This one is going to take a while from my experience...
+    - pycocotools
