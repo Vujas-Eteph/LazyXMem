@@ -9,6 +9,7 @@ Official Repository for LazyXMem
 - **Results:** Initial results are promising, showing performance and robustness gains through pseudo-corrections alone, and significant improvement with minimal user annotation (1.05% of the dataset).
 
 ### 📰 News:   
+- Latest version of the paper is available on arXiv
 - Publishing the code
 - Our paper got accepted at ACCV 2024! See you in Hanoi 🤗
 
