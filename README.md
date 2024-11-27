@@ -1,7 +1,7 @@
 # Lazy-XMem
 Official Repository for LazyXMem
 
-*[ACCV Paper]()*/ *[arXiv Paper](https://arxiv.org/pdf/2408.00169)* / *[Poster]()*
+*[ACCV Paper]()*/ *[arXiv Paper](https://arxiv.org/pdf/2408.00169)* / *[Poster](./Lazy-XMem_Poster.pdf)*
 
 ### TL;DR
 - **Goals:** We aim to enhance long-term object tracking by prioritizing robustness over pure accuracy. Our approach leverages on-the-fly user corrections to improve performance while minimizing user workload. To evaluate this, we introduce **lazy video object segmentation** (**ziVOS**), where an object is segmented in a video with only one user interaction round (in contrast to interactive VOS), and where corrections are provided on-the-fly, *i.e,* while the method is segmenting the video sequence.
